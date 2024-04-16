@@ -1,0 +1,706 @@
+{
+  "data": [
+    {
+      "title": "Main",
+      "isHeading": true,
+      "isActive": false,
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-separator"
+    },
+    {
+      "title": "Dashboard",
+      "name": "dashboard",
+      "isHeading": false,
+      "isActive": true,
+      "link": "/",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-home-4-line",
+      "children": [
+        {
+          "title": "Dashboard 1",
+          "isActive": false,
+          "link": "/dashboard1",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Dashboard 2",
+          "isActive": false,
+          "link": "/dashboard2",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Analytics",
+          "isActive": false,
+          "link": "/analytics",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Tracking",
+          "isActive": false,
+          "link": "/tracking",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Web Analytics",
+          "isActive": false,
+          "link": "/web-analytics",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Patient",
+          "isActive": false,
+          "link": "/patient",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Ticket Booking",
+          "isActive": false,
+          "link": "/ticket-booking",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Product Layout",
+          "isActive": true,
+          "link": "/",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+
+    {
+      "title": "Email",
+      "name": "email",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-mail-open-line",
+      "children": [
+        {
+          "title": "Inbox",
+          "isActive": false,
+          "link": "/email",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Email Compose",
+          "isActive": false,
+          "link": "/email/compose",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Calendar",
+      "isHeading": false,
+      "isActive": false,
+      "link": "/calendar",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-calendar-2-line"
+    },
+    {
+      "title": "Chat",
+      "isHeading": false,
+      "isActive": false,
+      "link": "/chat",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-message-line"
+    },
+    {
+      "title": "eCommerce",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-shopping-cart-line",
+      "children": [
+        {
+          "title": "Product",
+          "isActive": false,
+          "link": "/ecommerce/product",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Item Details",
+          "isActive": false,
+          "link": "/ecommerce/itemdetail",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Checkout",
+          "isActive": false,
+          "link": "/ecommerce/checkout",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "isHeading": true,
+      "isActive": false,
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-separator"
+    },
+    {
+      "title": "UI Elements",
+      "name": "ui-elements",
+      "isHeading": false,
+      "isActive": false,
+      "className": "",
+      "link": "",
+      "isIconClass": true,
+      "icon": "ri-pencil-ruler-line",
+      "children": [
+        {
+          "title": "Color",
+          "isActive": false,
+          "link": "/core/colors",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Typography",
+          "isActive": false,
+          "link": "/core/typography",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Alert",
+          "isActive": false,
+          "link": "/core/alert",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Badges",
+          "isActive": false,
+          "link": "/core/badges",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Breadcrumb",
+          "isActive": false,
+          "link": "/core/breadcrumb",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Button",
+          "isActive": false,
+          "link": "/core/buttons",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Cards",
+          "isActive": false,
+          "link": "/core/cards",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Carousel",
+          "isActive": false,
+          "link": "/core/carousel",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Video",
+          "isActive": false,
+          "link": "/core/video",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Grid",
+          "isActive": false,
+          "link": "/core/grid",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Images",
+          "isActive": false,
+          "link": "/core/images",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "List group",
+          "isActive": false,
+          "link": "/core/list-group",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Media",
+          "isActive": false,
+          "link": "/core/media",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Modal",
+          "isActive": false,
+          "link": "/core/modal",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Notifications",
+          "isActive": false,
+          "link": "/core/notification",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Pagination",
+          "isActive": false,
+          "link": "/core/pagination",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Popovers",
+          "isActive": false,
+          "link": "/core/popovers",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Progress Bars",
+          "isActive": false,
+          "link": "/core/progressbars",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Tabs",
+          "isActive": false,
+          "link": "/core/tabs",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Tooltips",
+          "isActive": false,
+          "link": "/core/tooltips",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "name": "forms",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-file-list-3-line",
+      "children": [
+        {
+          "title": "Form Elements",
+          "isActive": false,
+          "link": "/forms/form-layout",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Form Validation",
+          "isActive": false,
+          "link": "/forms/form-validation",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Form Switch",
+          "isActive": false,
+          "link": "/forms/form-switch",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Form Checkbox",
+          "isActive": false,
+          "link": "/forms/form-checkbox",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Form Radio",
+          "isActive": false,
+          "link": "/forms/form-radio",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Form Wizard",
+          "isActive": false,
+          "link": "/forms/form-wizard",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Tables",
+      "name": "tables",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-table-line",
+      "children": [
+        {
+          "title": "Basic Table",
+          "isActive": false,
+          "link": "/table/table-basic",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Data Table",
+          "isActive": false,
+          "link": "/table/data-table",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Editable Table",
+          "isActive": false,
+          "link": "/table/table-editable",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Charts",
+      "name": "charts",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-bar-chart-box-line",
+      "children": [
+        {
+          "title": "High Charts",
+          "isActive": false,
+          "link": "/charts/chart-high",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Am Charts",
+          "isActive": false,
+          "link": "/charts/chart-am",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Apex Chart",
+          "isActive": false,
+          "link": "/charts/chart-apex",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Icons",
+      "name": "icons",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-remixicon-line",
+      "children": [
+        {
+          "title": "Dripicons",
+          "isActive": false,
+          "link": "/icons/icon-dripicons",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Font Awesome 5",
+          "isActive": false,
+          "link": "/icons/icon-fontawesome",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Line Awesome",
+          "isActive": false,
+          "link": "/icons/icon-lineawesome",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Remixicon",
+          "isActive": false,
+          "link": "/icons/icon-remixicon",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "unicons",
+          "isActive": false,
+          "link": "/icons/icon-unicons",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Pages",
+      "isHeading": true,
+      "isActive": false,
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-separator"
+    },
+    {
+      "title": "Authentication",
+      "name": "authentication",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-pages-line",
+      "children": [
+        {
+          "title": "Login",
+          "isActive": false,
+          "link": "/auth/sign-in",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Register",
+          "isActive": false,
+          "link": "/auth/sign-up",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Recover Password",
+          "isActive": false,
+          "link": "/auth/password-reset",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Confirm Mail",
+          "isActive": false,
+          "link": "/auth/confirm-mail",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Lock Screen",
+          "isActive": false,
+          "link": "/auth/lock-screen",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Maps",
+      "name": "maps",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-map-2-fill",
+      "children": [
+        {
+          "title": "Google Map",
+          "isActive": false,
+          "link": "/maps/map",
+          "className": "/maps/map",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Extra Pages",
+      "name": "extra-pages",
+      "isHeading": false,
+      "isActive": false,
+      "link": "",
+      "className": "",
+      "isIconClass": true,
+      "icon": "ri-pantone-line",
+      "children": [
+        {
+          "title": "Timeline",
+          "isActive": false,
+          "link": "/extra-pages/timeline",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Invoice",
+          "isActive": false,
+          "link": "/extra-pages/invoice",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Blank Page",
+          "isActive": false,
+          "link": "/extra-pages/blank-page",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Error 404",
+          "isActive": false,
+          "link": "/page/error400",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Error 500",
+          "isActive": false,
+          "link": "/extra-pages/error/500",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Pricing",
+          "isActive": false,
+          "link": "/extra-pages/pricing",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Pricing 1",
+          "isActive": false,
+          "link": "/extra-pages/pricing-one",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Maintainance",
+          "isActive": false,
+          "link": "/page/maintainance",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "Coming Soon",
+          "isActive": false,
+          "link": "/page/comingsoon",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        },
+        {
+          "title": "FAQ",
+          "isActive": false,
+          "link": "/extra-pages/faq",
+          "className": "",
+          "isIconClass": false,
+          "icon": ""
+        }
+      ]
+    }
+  ]
+}

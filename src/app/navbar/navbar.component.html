@@ -1,0 +1,162 @@
+<!-- TOP Nav Bar [START] -->
+<div class="iq-top-navbar">
+  <div class="iq-navbar-custom">
+    <div class="iq-sidebar-logo">
+      <div class="top-logo">
+        <a [routerLink]="['/']" routerLinkActive="active" class="logo">
+          <img src="./assets/images/logo.png" class="img-fluid" alt="">
+          <span>Sofbox</span>
+        </a>
+      </div>
+    </div>
+    <!-- <app-breadcrumb1 title="Dashboard" [items]="breadCrumbItems"></app-breadcrumb1> -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+        <ul class="navbar-nav ml-auto navbar-list">
+
+          <li class="nav-item iq-film-block" *ngIf="countTicket" (click)="clickPaymentShow(countTicket)">
+            <a href="javascript:void(0);" class="iq-waves-effect"><i class="ri-film-line"></i>
+              <span class="menu-tag">{{ countTicket }}</span>
+            </a>
+            <div class="iq-sidebar-right-menu hide">
+              <ng-scrollbar id="right-sidebar-scrollbar">
+                  <div class="iq-sidebar-booking bg-primary">
+                      <h4 class="text-white d-inline-block mb-4">Booking Summary</h4>
+                      <a
+                          href="javascript:void(0);"
+                          class="float-right text-white font-size-18"
+                          (click)="closePayment()"
+                      >
+                          <i class="ri-close-circle-line"></i>
+                      </a>
+                      <div class="iq-booking-ticket">
+                          <dl class="row line-height-4">
+                              <dt class="col-sm-4 font-weight-normal font-size-16 text-dark">Nioking</dt>
+                              <dd class="col-sm-8 mb-0">
+                                  09, 20:00
+                              </dd>
+                              <dt class="col-sm-4 font-weight-normal text-dark">Avengers</dt>
+                              <dd class="col-sm-8 mb-0">HK5894J</dd>
+                              <dt class="col-sm-4 font-weight-normal text-dark">SCREEN2</dt>
+                              <!-- <dd class="col-sm-8 mb-0">D17, D18, D19 (3 Tickets)</dd> -->
+                              <dd class="col-sm-8 mb-0">
+                                  <!-- TODO: provide groupBy -->
+                                  <!-- <span *ngFor="let seat of cart$ | async">{{ seat.row }}{{ seat.column }},</span> -->
+                                  {{ countTicket }} Tickets
+                              </dd>
+                          </dl>
+                          <hr class="mt-4 d-inline-block w-100">
+                          <img
+                              src="./assets/images/booking/02.jpg"
+                              class="w-100"
+                              alt
+                          >
+                      </div>
+                      <span class="font-size-12 text-white mt-2 d-inline-block w-100">Your current state is Maharashtra</span>
+                  </div>
+                  <div class="iq-sidebar-payment">
+                      <h4 class="mb-4">Payment Method</h4>
+                      <img
+                          src="/assets/images/booking/03.png"
+                          class="w-100"
+                          alt
+                      >
+                      <div class="custom-control custom-checkbox mt-4 ml-1">
+                          <input
+                              type="checkbox"
+                              class="custom-control-input"
+                              id="customCheck1"
+                          >
+                          <label
+                              class="custom-control-label"
+                              for="customCheck1"
+                          >
+                              Pay With Cash
+                          </label>
+                      </div>
+                      <div class="mb-5 d-inline-block w-100">
+                          <!-- <a class="btn btn-primary btn-lg btn-block mt-3 mb-5" href="javascript:void(0);" role="button">Checkout</a> -->
+                          <a
+                              class="btn btn-primary btn-lg btn-block mt-3 mb-5"
+                              role="button"
+                              href="javascript:void(0);"
+                              routerLinkActive="active"
+                              [routerLink]="['/', 'checkout']"
+                          >
+                              Checkout
+                          </a>
+                      </div>
+
+                  </div>
+              </ng-scrollbar>
+            </div>
+          </li>
+
+        </ul>
+      <!-- </div> -->
+      <ul class="navbar-list">
+        <li>
+          <a href="javascript:void(0);" class="search-toggle iq-waves-effect bg-primary text-white"><img src="/assets/images/user/1.jpg" class="img-fluid rounded" alt="user"></a>
+          <div class="iq-sub-dropdown iq-user-dropdown">
+            <div class="iq-card shadow-none m-0">
+              <div class="iq-card-body p-0 ">
+                <div class="bg-primary p-3">
+                  <h5 class="mb-0 text-white line-height">Hello Nik jone</h5>
+                  <span class="text-white font-size-12">Available</span>
+                </div>
+                <a href="javascript:void(0);" class="iq-sub-card iq-bg-primary-hover">
+                  <div class="media align-items-center">
+                    <div class="rounded iq-card-icon iq-bg-primary">
+                      <i class="ri-file-user-line"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="mb-0 ">My Profile</h6>
+                      <p class="mb-0 font-size-12">View personal profile details.</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="javascript:void(0);" class="iq-sub-card iq-bg-primary-success-hover">
+                  <div class="media align-items-center">
+                    <div class="rounded iq-card-icon iq-bg-success">
+                      <i class="ri-profile-line"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="mb-0 ">Edit Profile</h6>
+                      <p class="mb-0 font-size-12">Modify your personal details.</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="javascript:void(0);" class="iq-sub-card iq-bg-primary-danger-hover">
+                  <div class="media align-items-center">
+                    <div class="rounded iq-card-icon iq-bg-danger">
+                      <i class="ri-account-box-line"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="mb-0 ">Account settings</h6>
+                      <p class="mb-0 font-size-12">Manage your account parameters.</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="javascript:void(0);" class="iq-sub-card iq-bg-primary-secondary-hover">
+                  <div class="media align-items-center">
+                    <div class="rounded iq-card-icon iq-bg-secondary">
+                      <i class="ri-lock-line"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="mb-0 ">Privacy Settings</h6>
+                      <p class="mb-0 font-size-12">Control your privacy parameters.</p>
+                    </div>
+                  </div>
+                </a>
+                <div class="d-inline-block w-100 text-center p-3">
+                  <a class="iq-bg-danger iq-sign-btn" href="javascript:void(0);" role="button">Sign out<i class="ri-login-box-line ml-2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!-- TOP Nav Bar [END] -->

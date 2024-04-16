@@ -1,0 +1,125 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="iq-card">
+                <div class="iq-card-body">
+                    <div class="iq-booking-offer iq-bg-primary">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 position-relative">
+                                <div class="offer-an-img">
+                                    <div class="bodymovin">
+                                        <ng-lottie [options]="optionsData"></ng-lottie>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>30% Discount For 5 Tickets!</h2>
+                                <p class="text-secondary">
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, type and it to make a type specimen book.
+                                </p>
+                                <a
+                                    href="javascript:void(0);"
+                                    class="btn btn-primary mt-3"
+                                >
+                                    Learn more
+                                    <i class="ri-arrow-right-line ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="js-product-list">
+                        <div class="Products">
+                            <ul class="product_list gridcount grid row">
+                                <li
+                                    *ngFor="let item of items"
+                                    class="product_item col-xs-12 col-sm-6 col-md-6 col-lg-3"
+                                >
+                                    <div class="product-miniature">
+                                        <div class="thumbnail-container">
+                                            <!-- <a href="#"><img src="{{ item.image }}" alt="product-image" class="img-fluid" /> </a> -->
+                                            <a
+                                                href="javascript:void();"
+                                                routerLinkActive="active"
+                                                [routerLink]="['/', 'ticket-booking', item.movieId]"
+                                            >
+                                                <img
+                                                    src="{{ item.image }}"
+                                                    alt="product-image"
+                                                    width="100%"
+                                                    height="auto"
+                                                    class="img-fluid-old"
+                                                >
+                                            </a>
+                                            <a
+                                                href="javascript:void();"
+                                                *ngIf="item.type == 'New'"
+                                                class="new"
+                                            >
+                                                {{ item.type }}
+                                            </a>
+                                        </div>
+                                        <div class="product-description">
+                                            <h4>{{ item.title }}</h4>
+                                            <p class="mb-0">{{ item.subtitle }}</p>
+                                            <div class="ratting">
+                                                <ul class="ratting-item d-flex p-0 m-0">
+                                                    <li class="full">
+                                                        <i class="{{ item.rating >= 1 ? 'ri-star-fill' : 'ri-star-line'}}"></i>
+                                                    </li>
+                                                    <li class="full">
+                                                        <i class="{{ item.rating >= 2 ? 'ri-star-fill' : 'ri-star-line'}}"></i>
+                                                    </li>
+                                                    <li class="full">
+                                                        <i class="{{ item.rating >= 3 ? 'ri-star-fill' : 'ri-star-line'}}"></i>
+                                                    </li>
+                                                    <li class="full">
+                                                        <i class="{{ item.rating >= 4 ? 'ri-star-fill' : 'ri-star-line'}}"></i>
+                                                    </li>
+                                                    <li class="full">
+                                                        <i class="{{ item.rating >= 5 ? 'ri-star-fill' : 'ri-star-line'}}"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                                <div class="product-action">
+                                                    <div class="add-to-cart">
+                                                        <a
+                                                            href="#"
+                                                            data-toggle="tooltip"
+                                                            data-placement="top"
+                                                            title
+                                                            data-original-title="Add to Cart"
+                                                        >
+                                                            <i class="ri-shopping-cart-2-line"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="wishlist">
+                                                        <a
+                                                            href="#"
+                                                            data-toggle="tooltip"
+                                                            data-placement="top"
+                                                            title
+                                                            data-original-title="Wishlist"
+                                                        >
+                                                            <i class="ri-heart-line"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="regular-price">
+                                                        <b>${{ item.regular_price }}</b>
+                                                        <span class="offer-price ml-2">${{ item.offer_price }}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
