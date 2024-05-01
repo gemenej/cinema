@@ -30,10 +30,10 @@ export class CheckoutComponent implements OnInit {
     this.store.select(selectTicketData).subscribe((selectedTickets) => {
       this.tickets = [];
       this.ticketsSum = 0;
-      console.log(selectedTickets);
+      //console.log(selectedTickets);
       selectedTickets?.map((ticket) => {
         let movie = this.movies.find((movie: Movie) => movie.movieId === ticket.movieId);
-        console.log(movie);
+        //console.log(movie);
         ticket = {
           ...ticket,
           title: movie.title,
