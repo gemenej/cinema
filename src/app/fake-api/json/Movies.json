@@ -11,254 +11,6 @@
       "rate": "9.3",
       "dates_in_cinema": [
         {
-          "date": 15,
-          "week": "Mon",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "C",
-              "column": 5
-            },
-            {
-              "row": "D",
-              "column": 2
-            }
-          ]
-        },
-        {
-          "date": 16,
-          "week": "Tue",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 17,
-          "week": "Wed",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "C",
-              "column": 1
-            },
-            {
-              "row": "C",
-              "column": 2
-            },
-            {
-              "row": "C",
-              "column": 3
-            },
-            {
-              "row": "C",
-              "column": 4
-            }
-          ]
-        },
-        {
-          "date": 18,
-          "week": "Thu",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 19,
-          "week": "Fri",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 20,
-          "week": "Sat",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 21,
-          "week": "Sun",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 22,
-          "week": "Mon",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "C",
-              "column": 5
-            },
-            {
-              "row": "D",
-              "column": 2
-            }
-          ]
-        },
-        {
-          "date": 23,
-          "week": "Tue",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 7
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 24,
-          "week": "Wed",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "C",
-              "column": 1
-            },
-            {
-              "row": "C",
-              "column": 2
-            }
-          ]
-        },
-        {
-          "date": 25,
-          "week": "Thu",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 4
-            },
-            {
-              "row": "A",
-              "column": 5
-            }
-          ]
-        },
-        {
-          "date": 26,
-          "week": "Fri",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 6
-            },
-            {
-              "row": "A",
-              "column": 7
-            }
-          ]
-        },
-        {
-          "date": 27,
-          "week": "Sat",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 8
-            },
-            {
-              "row": "A",
-              "column": 9
-            }
-          ]
-        },
-        {
-          "date": 28,
-          "week": "Sun",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 2
-            },
-            {
-              "row": "B",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "date": 29,
-          "week": "Mon",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 4
-            },
-            {
-              "row": "B",
-              "column": 5
-            }
-          ]
-        },
-        {
-          "date": 30,
-          "week": "Tue",
-          "time": "20:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 6
-            },
-            {
-              "row": "B",
-              "column": 7
-            }
-          ]
-        },
-        {
           "date": 1,
           "week": "Wed",
           "time": "20:00",
@@ -465,6 +217,269 @@
             {
               "row": "D",
               "column": 16
+            }
+          ]
+        },
+        {
+          "date": 15,
+          "week": "Wed",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "C",
+              "column": 5
+            },
+            {
+              "row": "D",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "date": 16,
+          "week": "Thu",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 17,
+          "week": "Fri",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "C",
+              "column": 1
+            },
+            {
+              "row": "C",
+              "column": 2
+            },
+            {
+              "row": "C",
+              "column": 3
+            },
+            {
+              "row": "C",
+              "column": 4
+            }
+          ]
+        },
+        {
+          "date": 18,
+          "week": "Sat",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 19,
+          "week": "Sun",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 20,
+          "week": "Mon",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 21,
+          "week": "Tue",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 22,
+          "week": "Wed",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "C",
+              "column": 5
+            },
+            {
+              "row": "D",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "date": 23,
+          "week": "Thu",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 7
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 24,
+          "week": "Fri",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "C",
+              "column": 1
+            },
+            {
+              "row": "C",
+              "column": 2
+            }
+          ]
+        },
+        {
+          "date": 25,
+          "week": "Sat",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 4
+            },
+            {
+              "row": "A",
+              "column": 5
+            }
+          ]
+        },
+        {
+          "date": 26,
+          "week": "Sun",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 6
+            },
+            {
+              "row": "A",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "date": 27,
+          "week": "Mon",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 8
+            },
+            {
+              "row": "A",
+              "column": 9
+            }
+          ]
+        },
+        {
+          "date": 28,
+          "week": "Tue",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 2
+            },
+            {
+              "row": "B",
+              "column": 3
+            }
+          ]
+        },
+        {
+          "date": 29,
+          "week": "Wed",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 4
+            },
+            {
+              "row": "B",
+              "column": 5
+            }
+          ]
+        },
+        {
+          "date": 30,
+          "week": "Thu",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 6
+            },
+            {
+              "row": "B",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "date": 31,
+          "week": "Fri",
+          "time": "20:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 8
+            },
+            {
+              "row": "B",
+              "column": 9
             }
           ]
         }
@@ -481,246 +496,6 @@
       "rate": "9.2",
       "dates_in_cinema": [
         {
-          "date": 15,
-          "week": "Mon",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 16,
-          "week": "Tue",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 17,
-          "week": "Wed",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 18,
-          "week": "Thu",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 19,
-          "week": "Fri",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 20,
-          "week": "Sat",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 21,
-          "week": "Sun",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 22,
-          "week": "Mon",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 23,
-          "week": "Tue",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 24,
-          "week": "Wed",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 14
-            },
-            {
-              "row": "A",
-              "column": 15
-            }
-          ]
-        },
-        {
-          "date": 25,
-          "week": "Thu",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "A",
-              "column": 13
-            }
-          ]
-        },
-        {
-          "date": 26,
-          "week": "Fri",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 10
-            },
-            {
-              "row": "A",
-              "column": 11
-            }
-          ]
-        },
-        {
-          "date": 27,
-          "week": "Sat",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "A",
-              "column": 12
-            },
-            {
-              "row": "B",
-              "column": 10
-            }
-          ]
-        },
-        {
-          "date": 28,
-          "week": "Sun",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 15
-            },
-            {
-              "row": "B",
-              "column": 16
-            }
-          ]
-        },
-        {
-          "date": 29,
-          "week": "Mon",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 13
-            },
-            {
-              "row": "B",
-              "column": 14
-            }
-          ]
-        },
-        {
-          "date": 30,
-          "week": "Tue",
-          "time": "18:00",
-          "places_booked": [
-            {
-              "row": "B",
-              "column": 11
-            },
-            {
-              "row": "B",
-              "column": 12
-            }
-          ]
-        },
-        {
           "date": 1,
           "week": "Wed",
           "time": "18:00",
@@ -927,6 +702,261 @@
             {
               "row": "D",
               "column": 16
+            }
+          ]
+        },
+        {
+          "date": 15,
+          "week": "Wed",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 16,
+          "week": "Thu",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 17,
+          "week": "Fri",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 18,
+          "week": "Sat",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 19,
+          "week": "Sun",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 20,
+          "week": "Mon",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 21,
+          "week": "Tue",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 22,
+          "week": "Wed",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 23,
+          "week": "Thu",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 24,
+          "week": "Fri",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 14
+            },
+            {
+              "row": "A",
+              "column": 15
+            }
+          ]
+        },
+        {
+          "date": 25,
+          "week": "Sat",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "A",
+              "column": 13
+            }
+          ]
+        },
+        {
+          "date": 26,
+          "week": "Sun",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 10
+            },
+            {
+              "row": "A",
+              "column": 11
+            }
+          ]
+        },
+        {
+          "date": 27,
+          "week": "Mon",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "A",
+              "column": 12
+            },
+            {
+              "row": "B",
+              "column": 10
+            }
+          ]
+        },
+        {
+          "date": 28,
+          "week": "Tue",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 15
+            },
+            {
+              "row": "B",
+              "column": 16
+            }
+          ]
+        },
+        {
+          "date": 29,
+          "week": "Wed",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 13
+            },
+            {
+              "row": "B",
+              "column": 14
+            }
+          ]
+        },
+        {
+          "date": 30,
+          "week": "Thu",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 11
+            },
+            {
+              "row": "B",
+              "column": 12
+            }
+          ]
+        },
+        {
+          "date": 31,
+          "week": "Fri",
+          "time": "18:00",
+          "places_booked": [
+            {
+              "row": "B",
+              "column": 9
+            },
+            {
+              "row": "B",
+              "column": 10
             }
           ]
         }
